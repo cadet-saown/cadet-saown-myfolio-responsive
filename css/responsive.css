@@ -1,0 +1,144 @@
+/* Large Device Css Start */ 
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner {
+        height: 700px;
+    }
+    #banner h1{
+        font-size: 58px;
+        letter-spacing: 25px;
+        text-transform: uppercase;
+    }
+    #banner img {
+        margin: 40px auto;
+    }
+    #myAbout {
+        padding: 70px 0;
+    }
+    #myAbout .about_item p {
+        padding: 0 35px;
+    }
+    #myService {
+        padding: 60px 0;
+    }
+    #myService .service_item p{
+        padding: 0 60px 0 0;
+    }
+    #myWork {
+        padding: 70px 0 0 0;
+    }
+    #contact .section_info {
+        padding: 70px 0;
+    }
+    #footer {
+        padding: 20px 0;
+    }
+}
+/* //Large Device Css End */
+
+/* Medium Device Css Start */
+@media (min-width:768px) and (max-width:991.98px) {
+    #banner {
+        height: 480px;
+    }
+    #banner h3 {
+        font-size: 25px;
+    }
+    #banner h1 {
+        font-size: 45px;
+        letter-spacing: 16px;
+        margin: 5px 0;
+    }
+    #banner img {
+        margin: 30px auto;
+    }
+    #banner .banner-content a {
+        padding: 16px 20px;
+    }
+    #myAbout .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #myService {
+        background: #F0F0E8;
+    }
+    #myService .service_item p {
+        padding: 15px 0;
+    }
+    #footer {
+        padding: 15px 0;
+    }
+}
+/* //Medium Device Css End */
+
+/* Small Device Css Start */
+@media (min-width:576px) and (max-width:767.98px) {
+    #banner {
+        height: 400px;
+    }
+    #banner h3 {
+        font-size: 20px;
+    }
+    #banner h1 {
+        font-size: 40px;
+        letter-spacing: 8px;
+        margin: 5px 0;
+    }
+    #banner img {
+        margin: 25px auto;
+    }
+    #banner .banner-content a {
+        padding: 12px 20px;
+    }
+    #myAbout .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #myService {
+        background: #F0F0E8;
+    }
+    #myService .service_item p {
+        padding: 10px 0;
+    }
+    #footer {
+        padding: 10px 0;
+    }
+}
+/* //Small Device Css End */
+
+/* Extra Small Device Css Start */
+@media (max-width:575.98px) {
+    #Nav #myMenu ul li a {
+        padding: 13px 25px;
+    }
+    #banner {
+        height: 320px;
+    }
+    #banner h3 {
+        font-size: 14px;
+    }
+    #banner h1 {
+        font-size: 26px;
+        letter-spacing: 3px;
+        margin: 5px 0;
+    }
+    #banner p {
+        font-size: 13px;
+    }
+    #banner img {
+        margin: 25px auto;
+    }
+    #banner .banner-content a {
+        padding: 12px 20px;
+    }
+    #myAbout .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #myService {
+        background: #F0F0E8;
+    }
+    #myService .service_item p {
+        padding: 10px 0;
+    }
+    #footer {
+        padding: 10px 0;
+    }
+}
+/* //Extra Small Device Css End */
